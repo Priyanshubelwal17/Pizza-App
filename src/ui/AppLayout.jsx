@@ -9,14 +9,15 @@ function AppLayout() {
 
   console.log(navigation);
   return (
-    <div className="layout">
+    <div className="grid-row-[auto-1fr_auto] grid h-screen">
       {isLoading && <Loader />}
       <Header />
-      <main>
-        <h1>Content</h1>
-        <Outlet />
-        <CartOverview />
-      </main>
+      <div className="overflow-scroll">
+        <main className="mx-auto max-w-3xl">
+          <Outlet />
+        </main>
+      </div>
+      <CartOverview />
     </div>
   );
 }

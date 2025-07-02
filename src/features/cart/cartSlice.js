@@ -6,7 +6,7 @@ const initialState = {
       pizzaId: 12,
       name: 'Mediterranean',
       quantity: 2,
-      untilPrice: 16,
+      unPrice: 16,
       totalPrice: 32,
     },
   ],

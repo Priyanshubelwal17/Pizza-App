@@ -29,6 +29,7 @@ function CreateUser() {
         onChange={(e) => setUsername(e.target.value)}
         className="input mb-8 w-72"
       />
+      <button></button>
 
       {username !== '' && (
         <div>

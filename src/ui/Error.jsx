@@ -8,8 +8,6 @@ function Error() {
 
   return (
     <div>
-      <Header />
-
       <h1>Something went wrong 😢</h1>
       <p>{error.data || error.message}</p>
 
